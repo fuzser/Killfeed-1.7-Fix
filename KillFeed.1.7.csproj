@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>KillFeed</AssemblyName>
+    <RootNamespace>KillFeed</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <OutputPath>v1.7\Assemblies\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Sources\Source\*.cs" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityStubs">
+      <HintPath>..\..\UnityStubs.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <PackageReference Include="Lib.Harmony" Version="3.0.0-rc.7" PrivateAssets="all" ExcludeAssets="runtime" />
+  </ItemGroup>
+</Project>
