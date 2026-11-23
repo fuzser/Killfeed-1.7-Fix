@@ -2,7 +2,7 @@
 <ModMetaData>
 	<packageId>worldleader.killfeed</packageId>
 	<name>Killfeed - 1.7 Fix (Continued)</name>
-	<author>キャデグ</author>
+	<author>WorldLeader</author>
 	<url>https://github.com/fuzser/Killfeed-1.7-Fix</url>
 	<supportedVersions>
 		<li>1.0</li>
@@ -22,5 +22,6 @@ This continued edition includes a dedicated RimWorld 1.7 fix for pawns held in c
 
 本续作版包含独立的 RimWorld 1.7 修复：收容平台等容器内的 Pawn 不再因没有地图而触发迷雾判断空引用，相关死亡信息也不会因此丢失。
 
-Original mod by Kahdeg; modified from ChJees's work.</description>
+Original author: Kahdeg. Based on and modified from ChJees's work.
+原作者：Kahdeg（キャデグ）。本 Mod 基于 ChJees 的作品修改。</description>
 </ModMetaData>

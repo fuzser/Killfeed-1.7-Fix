@@ -4,6 +4,7 @@ An independent RimWorld 1.7 compatibility update for [Kahdeg's Killfeed](https:/
 
 - In-game title: **Killfeed - 1.7 Fix (Continued)**
 - Package ID: `worldleader.killfeed`
+- Maintainer: **WorldLeader**
 
 ## Fix
 
