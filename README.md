@@ -2,6 +2,9 @@
 
 An independent RimWorld 1.7 compatibility update for [Kahdeg's Killfeed](https://github.com/Kahdeg-15520487/KillFeed).
 
+- In-game title: **Killfeed - 1.7 Fix (Continued)**
+- Package ID: `worldleader.killfeed`
+
 ## Fix
 
 The original death patch called `Pawn.Fogged()` for every pawn. Pawns held by containers, including holding platforms, are not spawned and have no map, so this produced a null-reference error and suppressed the announcement.

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>kahdeg.Killfeed</packageId>
-	<name>Killfeed</name>
+	<packageId>worldleader.killfeed</packageId>
+	<name>Killfeed - 1.7 Fix (Continued)</name>
 	<author>キャデグ</author>
+	<url>https://github.com/fuzser/Killfeed-1.7-Fix</url>
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
@@ -13,9 +14,13 @@
 		<li>1.6</li>
 		<li>1.7</li>
 	</supportedVersions>
-	<description>A merely cosmetical mod which adds a killfeed showing who killed whom and can take you there when click on the notification
+	<description>Adds a combat killfeed showing who killed whom. Click a notification to jump to the event, and optionally display the weapon icon.
 
-Modified from ChJees's source to include weapon icon in the killfeed.
+This continued edition includes a dedicated RimWorld 1.7 fix for pawns held in containers such as holding platforms. Their deaths no longer trigger fog-check null-reference errors or disappear from the feed.
 
-RimWorld 1.7 fix: safely handles pawns held in containers without a map.</description>
+添加战斗击杀信息，显示谁击杀了谁；点击通知可跳转到事件位置，并可选择显示武器图标。
+
+本续作版包含独立的 RimWorld 1.7 修复：收容平台等容器内的 Pawn 不再因没有地图而触发迷雾判断空引用，相关死亡信息也不会因此丢失。
+
+Original mod by Kahdeg; modified from ChJees's work.</description>
 </ModMetaData>
